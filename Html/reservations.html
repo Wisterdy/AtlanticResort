@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+<meta charset="utf-8" />
+<link rel="stylesheet"  type="text/css"   href="../CSS/atlantic.css" />
+<meta name="viewport" content="width=device-width,intial-scale=1.0">
+<title> Atlantic Trails Resort</title>
+
+<link rel='icon' href="../Images/favicon.ico" type="image/ico">
+
+
+<style>
+
+	div p{
+
+          margin:0px;
+	     }
+
+
+	footer p{
+             margin:0px;
+	      }
+
+    *{
+       box-sizing: border-box;
+
+     }
+
+ .column
+ 	{
+      float:left;
+      padding:2px;
+	}
+
+
+.row::after
+	{
+      content:"";
+      clear:both;
+      display: table;
+	}
+
+
+
+</style>
+
+
+</head>
+
+
+<body>
+<div id="wrapper">
+
+
+
+<header>
+		<h1> Atlantic Trails Resort</h1>
+	
+
+
+
+
+</header>
+
+   
+  <nav class="navigation">
+  
+    <ul>
+       <li><a href="..//index.html">Home</a></li>
+    <li><a href="Accommodations.html">Accommodations</a></li>
+    <li><a href="activities.html">Activities</a></li>
+    <li><a href="entertainment.html">Reservations</a></li>
+    <li><a href="#">Entertainment Schedule</a></li>
+
+     </ul>   
+
+      <div id="contact">
+  <p> <span class="resort" > Atlantic Trails Resort </span> </p>
+    <p>1227 Atlantic Trails Way</p>
+    <p>Cliffside, Maine 04226</p>
+    <p id="telephone"> 888-555-5555  </p>
+
+    
+    
+    </div>
+    
+
+     <img src= "..//Images/harbor1.png" alt="harbor1.png"  height="250" width="250">
+     
+  </nav>
+
+
+<main>
+
+
+<h2>Reservations at Alantic Trails Resort</h2>
+  
+  <h3> Contact Us Today To Plan Your Next Vacation</h3>
+
+   <form method="post" action="http://cs.ucf.edu/~markl/atlanticformreport.php">
+    <fieldset>
+          <ul>
+             <li>
+                <label for="first_name">*First Name: </label>
+                <input type= "text" id="first_name" name="first_name" autofocus class="large"/>
+             </li>
+             
+               <li>
+                <label for="last_name">*Last Name: </label>
+                <input type= "text" id="last_name" name="last_name" class="large"/>
+             </li>
+
+              <li>
+                <label for="email">*Email: </label>
+                <input type= "email" id="email" name="email" class="large"/>
+             </li>
+
+            <li>
+                <label for="phone">phone: </label>
+                <input type= "tel" id="phone" name="phone" class="large"/>
+             </li>
+
+            <li>
+                <label for="date">Date: </label>
+                <input type= "text" id="date" name="date" class="large"/>
+             </li>
+
+           <li>
+                <label for="arrival_Time">Arrival Time: </label>
+                <input type= "text" id="arrival_Time" name="arrival_Time" class="large"/>
+           </li>
+           <li>
+                <label for="Numb_of_Nights"> Num_of_Nights:</label>
+                <input type= "number" id="Numb_of_Nights" name="Numb_of_Nights" min="1" max="10" class="large"/>
+           </li>
+            <li>
+                <label for="comments">*Comments:</label>
+                <textarea id="comments"  name="comments" rows="2" cols="32"></textarea>
+           </li>
+   
+
+
+
+        </ul>
+        <input type="submit" value="submit" class="reserve">
+
+        <input type="reset"  class="reset">
+   </fieldset>
+
+   </form>
+   <!-- alternate contact div for the table and phone version that not in the Nav-->
+
+    <div id="altcontact">
+  <p> <span class="resort" > Atlantic Trails Resort </span> </p>
+    <p>1227 Atlantic Trails Way</p>
+    <p>Cliffside, Maine 04226</p>
+    <p> 888-555-5555  </p>
+
+    
+    
+    </div>
+  
+
+<footer>
+<p> Copyright &copy; 2019 Atlantic Trails Resort </p>
+
+<p><a href= myname>  Wisterdy@Alcida.com</a> </p>
+</footer>
+</main>
+
+</div>
+
+</body>
+
+
+</html>

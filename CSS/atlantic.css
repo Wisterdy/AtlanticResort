@@ -1,0 +1,509 @@
+
+  #wrapper
+  {
+
+    width:80%;
+    margin:0 auto;
+    min-width: 975px;
+    max-width: 1300px;
+
+  }
+ 
+body
+	{
+	/*background-color : #CBD0DE;*/
+	color: #000001 ;
+	font-family: sans-serif;
+  background-image:linear-gradient(#E0E0E0,#757575)
+
+	}
+header
+	{
+	background-color : #000033;
+	color: #FFFFFF ;
+	background-image: url(..//Images/sunset.jpg);
+	background-repeat: no-repeat;
+	background-position: right;
+    
+
+
+	}
+
+  header h1
+  {
+   text-align: center;
+
+  }
+
+   #indexpage-mainimage
+ {
+  height:300px;
+  background-image:url(..//Images/coast-main.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+    /*border:5px solid red;*/
+
+ }
+
+ #accommodationspage-mainimage
+ {
+   height:300px;
+  background-image:url(..//Images/bungalow-main.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+    /*border:5px solid red;*/
+
+   
+
+ }
+  
+
+   #activitiespage-mainimage
+ {
+   height:300px;
+  background-image:url(..//Images/trail-main.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+   
+
+ }
+  
+
+ /* create a nav ID called navigation to remove hyperlink underline*/
+  
+.navigation a:link
+	{
+
+
+     text-decoration: none;
+
+      
+
+	 }
+
+   .navigation ul
+   {
+     list-style-type: none;
+   }
+
+nav
+	{
+    width:190px;
+   display:table-cell;
+	/*background-color : #90C7E3;*/
+	line-height: 1.25em ;
+	font-weight: bold;
+	text-decoration: none;
+   /*border: 1px solid black;*/
+   vertical-align: top;
+  padding: 10px 10px;
+  margin-bottom:15px;
+
+	}
+
+ 	
+ 
+
+h2 
+   {
+    color:#334DCC;
+    
+   }
+
+dd
+   {
+     margin-bottom: 1.5em;
+
+   }
+
+dt
+  {
+   color: #000099;
+   font-size: 14pt;
+
+
+  }
+
+.resort
+  {
+
+  	color:#005CE6;
+  	font-weight: bold;
+  }
+
+ #contact
+  {
+
+    font-size:90%;
+    border:1px solid black;
+    height:100px;
+    width:200px;
+    text-align: inherit;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+   
+
+  }
+
+ h1
+   {
+
+   	margin-bottom:0px;
+   	font-family: serif;
+   	text-indent: 0.5em;
+   }
+
+/* padding for the contact telephone number*/
+  #telephone
+  {
+    margin: 5px;
+    margin-bottom: 10px;
+    text-decoration: none;
+
+  }
+
+  /* formating the <ul> elements to display marker gift as bullets*/
+  #sentence
+  {
+
+  	 list-style-image:url('..//Images/marker.gif');
+  	 font-size: 13pt;
+  	 font-family: sans-serif;
+  }
+
+  ul li a
+  {
+   line-height:200%;
+
+  }
+  
+  footer
+  {
+    margin-top:10px;
+  	font-size:75%;
+  	font-style:italic;
+  	
+  	font-family: serif;
+    clear:both;
+  	text-align: center;
+    
+  }
+
+ 
+
+main
+{
+  display:table-cell;
+
+}
+table
+{
+ border: 2px solid #C2DFFF;
+ width:75%;
+margin:auto;
+border-spacing:0;
+
+}
+
+thead
+{
+ background-color: #000099;
+
+
+}
+
+thead th
+{
+ color:#EAEAEA;
+ border-collapse:collapse;
+ text-align:center;
+ 
+}
+
+th,td
+{
+  border: 1px solid #C2DFFF;
+ border-collapse:collapse;
+ text-align:center;
+
+
+}
+
+#altcontact
+{
+  
+  clear:both;
+  margin:auto;
+  border: 1px solid;
+  border-color:black;
+  text-align: center;
+  display: none;
+
+ 
+}
+
+/*text toggle*/
+#alt_accomodations
+{
+  display:none;
+}
+
+.alt_text
+{
+  display: none;
+}
+
+
+
+form 
+{
+  background-color:#E0E0E0;
+  border: 2px solid #334DCC;
+  display: inline-block;
+}
+/*Form styling"8*/
+form fieldset ul li
+{
+  list-style-type: none;
+  /*padding: 10px;*/
+  padding-bottom: 1em;
+
+}
+
+label
+{
+float: left;
+width:8em;
+
+
+
+}
+fieldset ul li input
+{
+  margin-bottom:2px;
+  padding-left:3px;
+
+}
+
+.reserve
+{
+  margin-left:5em;
+  background-color:darkblue;
+}
+.reset
+{
+  margin-left: 7em;
+  background-color:lightblue;
+
+}
+
+#Entertaimentpage-image1
+{
+
+ margin-top:20px;
+ margin-bottom:15px;
+ height:150px;
+ width: 200px;
+  background-image:url(..//Images/rondo6.jpg);
+  background-repeat: no-repeat;
+  /*background-size:cover;*/
+
+
+}
+#Entertaimentpage-image2
+{
+   margin-top:20px;
+ margin-bottom:10px;
+   height:150px;
+   width: 200px;
+  background-image:url(..//Images/rondo4.jpg);
+  background-repeat: no-repeat;
+  /*background-size:cover;*/
+ 
+}
+
+#sent
+{
+  list-style-type: none;
+  font-size:10px;
+}
+audio
+{
+  margin-bottom:5px;
+}
+
+/*form Styling End
+
+/* tablet media query*/
+@media only screen and (max-width:64em )
+{
+   body
+        {
+         margin:0px;
+         background-color: lightblue;
+
+
+        }
+   
+   #wrapper
+   {
+     min-width:0px;
+     width:auto;
+     margin:0px;
+
+
+   }
+
+   nav
+   {
+    display: inline;
+    margin:0px;
+
+    }
+
+nav li 
+{
+ display:inline;
+ padding-top: 0.25em;
+ padding-bottom:0.25em;
+ padding-left:0.75em; 
+ padding-right:0.75em;
+font-size:16px; 
+
+
+}
+
+nav div
+{
+  display: none;
+}
+
+nav image
+{
+  display: none;
+  background-image:none;
+}
+
+
+main image
+{
+ margin-left:0px;
+ height:200px;
+margin-top: 0px;
+}
+#altcontact
+{
+  display: block;
+   clear:both;
+   margin-top:2px;
+  
+
+}
+
+}
+/* end of tablet query*/
+
+
+/* Start of phone media query*/
+@media only screen and (max-width:37.5em )
+{
+
+header
+{
+  padding-top:1em;
+}
+
+main
+{
+ padding-top:0.1em;
+ padding-bottom: 0.1em;
+ padding-right: 1em;
+ padding-left:1em;
+
+
+}
+
+ h1
+  {
+     font-size:1.5em;
+   }
+
+nav
+{
+  margin:0px;
+  padding: 0px;
+}
+nav li
+{
+  display: block;
+  margin: 0;
+ 
+  /*border-top: 5px solid black;*/
+  border-bottom: 2px solid #FFE4C4;
+  text-align: center;
+}
+
+#sentence li
+ {
+  list-style-image:none;
+  list-style-type: none;
+ }
+nav a
+{
+  display: block;
+}
+
+  #indexpage-mainimage
+ {
+  display: none;
+  background-image: none;
+    height:0px;
+ 
+ }
+
+#accommodationspage-mainimage
+ {
+
+   display: none;
+   background-image: none;
+    height:0px;
+  
+ }
+
+  #activitiespage-mainimage
+ {
+    display: none;
+    background-image: none;
+    height:0px;
+  
+  }
+
+ header
+ {
+  margin-bottom: 0px;
+ }
+
+ table 
+ {
+   display:none;
+ }
+ #alt_accomodations
+ {
+  display:inline-block;
+ }
+
+.org_text
+{
+  display: none;
+}
+
+.alt_text
+{
+  display: inline-block;
+}
+
+}
+
+
+/*phone media query end*/
